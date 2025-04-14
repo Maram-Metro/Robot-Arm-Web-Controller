@@ -1,16 +1,68 @@
-# robot-arm-web-controller
+# Robot Arm Web Controller
 
-### the aim of the project is to controll the robot arm by changing the engines values in the controller.
+A web-based interface to control a 6-engine robotic arm. This tool allows users to adjust the position of each engine using intuitive sliders, and communicate with a backend system built with PHP and MySQL to save or execute movement commands.
 
-this project done by using : html, css, php, mysql, AJAX.
+---
 
-the steps i did :
-1. create html page ***index.html***
-2. design the html page by adding css ***robot-arm-style.css***
-3. creat database table ***robotarm.sql***
-4. creat the php page that insert the data to the database ***robot-arm-dbc.php***
-5. apply AJAX method to Send data from html page to a server - execute the php page in the background -
-6. creat php page that update the record's state in the database to be true (on) and display the values of the six engines, this page open in new tab when click the 'Run' button in html page 
+## 🔧 Technologies Used
 
-the sources :
-https://www.youtube.com/watch?v=2ccn4Ffm6c8&t=298s
+- **Frontend**: HTML, CSS
+- **Backend**: PHP
+- **Database**: MySQL
+
+---
+
+## 📷 Interface Preview
+
+![Control Robot Arm](لقطة%20الشاشة%202025-04-14%20191722.png)
+
+---
+
+## 💡 Features
+
+- Control 6 robotic arm motors via sliders
+- Save current motor positions to a database
+- Run previously saved movements
+- Clean, simple web interface
+
+---
+
+## 🚀 How to Use
+
+1. Clone the repository
+2. Set up a local server (e.g., XAMPP)
+3. Import the `robotarm.sql` file into MySQL
+4. Open `robot-arm-test.php` in your browser
+5. Use sliders to control the motors
+6. Click **Save** to store the position, or **Run** to execute it
+
+---
+
+## 📁 Project Structure
+Robot Arm Web Controller/
+├── css/
+│   └── robot-arm-style.css
+├── php/
+│   ├── robot-arm-dbc.php
+│   └── robot-arm-test.php
+├── sql/
+│   └── robotarm.sql
+├── index.html
+└── README.md
+
+
+---
+
+## 👩‍💻 Author
+
+Maram Metro  
+GitHub: [Maram-Metro](https://github.com/Maram-Metro)
+
+---
+
+## 📌 Notes
+
+- Make sure PHP and MySQL are properly configured on your server.
+- This controller can be integrated with physical robotic systems via serial or wireless communication.
+
+
