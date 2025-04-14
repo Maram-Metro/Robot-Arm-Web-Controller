@@ -39,7 +39,7 @@ A web-based interface to control a 6-engine robotic arm. This tool allows users 
 ---
 
 ## 📁 Project Structure
-Robot Arm Web Controller/
+robot-arm-web-controller/
 ├── css/
 │   └── robot-arm-style.css
 ├── php/
