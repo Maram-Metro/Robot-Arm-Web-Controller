@@ -14,7 +14,6 @@ A web-based interface to control a 6-engine robotic arm. This tool allows users 
 
 ## 📷 Interface Preview
 
-
 ![Control Robot Arm](screenshot.png)
 
 ---
