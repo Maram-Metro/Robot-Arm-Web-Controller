@@ -39,6 +39,8 @@ A web-based interface to control a 6-engine robotic arm. This tool allows users 
 ---
 
 ## 📁 Project Structure
+
+```bash
 robot-arm-web-controller/
 ├── css/
 │   └── robot-arm-style.css
@@ -49,7 +51,7 @@ robot-arm-web-controller/
 │   └── robotarm.sql
 ├── index.html
 └── README.md
-
+```
 
 
 ---
