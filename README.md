@@ -1,4 +1,4 @@
-# Robot Arm Web Controller
+# 🤖 Robot Arm Web Controller
 
 A web-based interface to control a 6-engine robotic arm. This tool allows users to adjust the position of each engine using intuitive sliders, and communicate with a backend system built with PHP and MySQL to save or execute movement commands.
 
