@@ -51,12 +51,6 @@ robot-arm-web-controller/
 └── README.md
 
 
----
-
-## 👩‍💻 Author
-
-Maram Metro  
-GitHub: [Maram-Metro](https://github.com/Maram-Metro)
 
 ---
 
